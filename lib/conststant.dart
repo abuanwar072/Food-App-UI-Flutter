@@ -30,3 +30,10 @@ const TextStyle kPriceText = TextStyle(
   fontSize: 14,
   color: Colors.grey,
 );
+
+const TextStyle kNormalText = TextStyle(
+  fontFamily: "WorkSans",
+  fontWeight: FontWeight.w600,
+  fontSize: 14,
+  color: Colors.grey,
+);
