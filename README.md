@@ -1,6 +1,11 @@
-# food_app_ui_flutter
+# Food Flutter UI
 
-A new Flutter project.
+There is a two page of design one is Home page and another one is details page.
+
+No animation addedd, will be added later.
+
+## Demo of the App
+
 
 ## Getting Started
 
