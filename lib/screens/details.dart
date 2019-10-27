@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:food_app_ui_flutter/conststant.dart';
 
 class DetailsPage extends StatelessWidget {
-  bool isActive = true;
-
   @override
   Widget build(BuildContext context) {
     double screenHeight = MediaQuery.of(context).size.height;
@@ -156,6 +154,21 @@ class DetailsPage extends StatelessWidget {
                         ),
                       ),
                     ),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(30),
+                      child: Container(
+                        padding: EdgeInsets.all(15),
+                        width: screenWight,
+                        height: 80,
+                        color: Colors.black,
+                        child: Center(
+                          child: Text(
+                            '\$48.00',
+                            style: kHeading.copyWith(fontSize: 25),
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -194,8 +207,8 @@ class ScroolCard extends StatelessWidget {
       padding: const EdgeInsets.only(right: 15),
       child: Container(
         padding: EdgeInsets.all(15),
-        height: 170,
-        width: 120,
+        height: 150,
+        width: 100,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           color: select ? kSecondaryColor : Colors.transparent,
